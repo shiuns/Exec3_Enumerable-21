@@ -10,7 +10,6 @@ namespace _作業03_Exec3_Enumerable_21謝孟勳
 	{
 		static void Main(string[] args)
 		{
-			IEnumerable<int> result = Enumerable.Range(1, 100);
 			result = Enumerable.Range(1, 10);
 			foreach (int i in result)
 			Console.WriteLine(i);
