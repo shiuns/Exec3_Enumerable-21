@@ -10,14 +10,14 @@ namespace _作業03_Exec3_Enumerable_21謝孟勳
 	{
 		static void Main(string[] args)
 		{
-			result = Enumerable.Range(1, 10);
+			var result = Enumerable.Range(1, 10);
 			foreach (int i in result)
 			Console.WriteLine(i);
 
 			Console.WriteLine();
 
-			result = Enumerable.Range(10, 6);
-			foreach (int i in result)
+			var result1 = Enumerable.Range(10, 6);
+			foreach (int i in result1)
 			Console.WriteLine(i);
 
 		}
